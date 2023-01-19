@@ -1,7 +1,7 @@
-import React from "react";
+import React, {Component} from "react";
 import css from "./Dropdown.module.css";
 
-class Dropdown extends React.Component {
+class Dropdown extends Component {
 
     state = {
         visible: false,
